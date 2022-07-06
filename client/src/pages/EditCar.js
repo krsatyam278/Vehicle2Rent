@@ -44,7 +44,7 @@ function EditCar({ match }) {
               <hr />
               <Form.Item
                 name="name"
-                label="Car name"
+                label="Vehicle name"
                 rules={[{ required: true }]}
               >
                 <Input />
@@ -79,7 +79,7 @@ function EditCar({ match }) {
               </Form.Item>
 
               <div className="text-right">
-                <button className="btn1">Edit CAR</button>
+                <button className="btn1">Submit</button>
               </div>
             </Form>
           )}
